@@ -1,0 +1,33 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have LF line endings on checkout.
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+
+# Specify files or directories to ignore
+node_modules/ -diff
+.next/ -diff
+
+# Explicitly declare files that are binary and should not be modified by Git.
+# Image formats
+*.png binary
+*.jpg binary
+*.gif binary
+# Fonts
+*.woff binary
+*.woff2 binary
+# Other binary files
+*.pdf binary
+*.zip binary
+# Exclude any other file types specific to your project
+
+# Declare specific configuration files
+# For ShadCN, Tailwind CSS, Zustand
+tailwind.config.ts text
+shadcn.config.js text
+zustand.config.ts text
