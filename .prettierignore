@@ -1,0 +1,88 @@
+/.vscode
+/node_modules
+./dist
+
+*.env
+.env
+.env.*
+
+next*
+**/.next/**
+**/_next/**
+**/dist/**
+**/__tmp__/**
+lerna.json
+.github
+
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+.next/
+out/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore public and static assets
+public/
+static/
+
+# Ignore coverage directory
+coverage/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore miscellaneous files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files
+*.config.js
+*.config.ts
+*.conf.js
+*.conf.ts
+
+# Ignore README file
+README.md
+
+# Ignore package.json and package-lock.json (if you want to avoid reformatting them)
+package.json
+package-lock.json
+
+# Ignore tailwind CSS config file
+tailwind.config.js
+tailwind.config.ts
+
+# Ignore PostCSS config file
+postcss.config.js
+postcss.config.ts
+
+# Ignore Prettier config file
+.prettierrc
+.prettierrc.js
+.prettierrc.json
+.prettierrc.yaml
+.prettierrc.yml
+.prettier.config.js
+
+# Ignore ESLint config file
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+.eslintrc.yaml
+.eslintrc.yml
+eslint.config.js
+
+# Ignore specific files or directories as needed
