@@ -6,11 +6,11 @@ import ButtonPrimary from "./buttons/button-primary";
 export default function Navbar() {
 	const links = [
 		{ href: "/", label: "Home" },
-		{ href: "/services", label: "Services" },
-		{ href: "/feature", label: "Feature" },
-		{ href: "/product", label: "Product" },
-		{ href: "/testimonials", label: "Testimonials" },
-		{ href: "/faq", label: "FAQ" },
+		{ href: "/pages/services", label: "Services" },
+		{ href: "/pages/feature", label: "Feature" },
+		{ href: "/pages/product", label: "Product" },
+		{ href: "/pages/testimonials", label: "Testimonials" },
+		{ href: "/pages/faq", label: "FAQ" },
 	];
 	return (
 		<div className="fixed top-0 w-full z-50 bg-[#F5F7FA] shadow-sm">
@@ -66,8 +66,12 @@ export default function Navbar() {
 						))}
 					</div>
 					<div className="flex gap-[0.875rem]">
-						<ButtonSecondary />
-						<ButtonPrimary />
+						<Link href="/login" passHref>
+							<ButtonSecondary label="Login" />
+						</Link>
+						<Link href="/login" passHref>
+							<ButtonPrimary label="Sign Up" />
+						</Link>
 					</div>
 				</nav>
 			</div>
