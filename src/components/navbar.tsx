@@ -1,7 +1,9 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import ButtonSecondary from "./buttons/button-secondary";
 import ButtonPrimary from "./buttons/button-primary";
+import DarkModeToggle from "./buttons/darkmode";
 
 export default function Navbar() {
 	const links = [
@@ -65,13 +67,14 @@ export default function Navbar() {
 							</Link>
 						))}
 					</div>
-					<div className="flex gap-[0.875rem]">
+					<div className="flex gap-[0.875rem] items-center"> 
 						<Link href="/login" passHref>
 							<ButtonSecondary label="Login" />
 						</Link>
 						<Link href="/login" passHref>
 							<ButtonPrimary label="Sign Up" />
 						</Link>
+                        <DarkModeToggle/>
 					</div>
 				</nav>
 			</div>
