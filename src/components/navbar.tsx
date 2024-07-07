@@ -13,8 +13,8 @@ export default function Navbar() {
 		{ href: "/pages/faq", label: "FAQ" },
 	];
 	return (
-		<div className="fixed top-0 w-full z-50 bg-[#F5F7FA] shadow-sm">
-			<div className="max-h-[5.25rem] py-[1.38rem] px-[5%] bg-neutral-silver">
+		<div className="fixed top-0 w-full z-50 bg-white shadow-sm">
+			<div className="max-h-[5.25rem] py-[1.38rem] px-[5%] bg-[#ffffff]">
 				<nav className="flex max-w-[75rem] mx-auto justify-between items-center">
 					<div className="max-lg:hidden">
 						<Link href={"/"}>
@@ -44,7 +44,7 @@ export default function Navbar() {
 					<div className="md:hidden hidden bg-white w-full py-2">
 						{links.map(({ href, label }) => (
 							<Link
-								className="block px-4 py-2 text-gray-900 text-center hover:text-brand-primary"
+								className="block px-4 py-2 text-gray-900 text-center hover:text-[#4CAF4F]"
 								key={`${href}${label}`}
 								href={href}
 							>
@@ -56,8 +56,8 @@ export default function Navbar() {
 						{links.map(({ href, label }) => (
 							<Link
 								className="text-base font-medium text-gray-900 transition-all ease-in-out duration-300 relative 
-								after:absolute after:w-0 after:h-[2px] after:bg-brand-primary after:left-[50%] after:translate-x-[-50%] after:bottom-0 
-								after:transition-all after:ease-in-out after:duration-300 hover:after:w-full hover:text-brand-primary"
+								after:absolute after:w-0 after:h-[2px] after:bg-[#4CAF4F]  after:left-[50%] after:translate-x-[-50%] after:bottom-0 
+								after:transition-all after:ease-in-out after:duration-300 hover:after:w-full hover:text-[#4CAF4F] "
 								key={`${href}${label}`}
 								href={href}
 							>

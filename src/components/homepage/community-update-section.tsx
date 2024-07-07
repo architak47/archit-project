@@ -26,10 +26,10 @@ export default function CommunityUpdateSection() {
 		<section className="px-[5%] py-12">
 			<div className="flex flex-col gap-4 max-w-[72rem] mx-auto text-center">
 				<div className="flex flex-col gap-2 max-w-[40rem] mx-auto">
-					<h2 className="text-4xl font-semibold text-neutral-d-gray">
+					<h2 className="text-4xl font-semibold text-[#4D4D4D]">
 						Caring is the new marketing
 					</h2>
-					<p>
+					<p className="text-[#717171]">
 						The Nexcent blog is the best place to read about the
 						latest membership insights, trends and more. See
 						who&apos;s joining the community, read about how our

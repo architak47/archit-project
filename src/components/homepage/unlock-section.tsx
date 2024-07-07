@@ -15,10 +15,10 @@ export default function UnlockSection() {
 				</figure>
 				<div className="flex flex-col gap-8">
 					<div className="flex flex-col gap-12 pr-16 sm:max-w-[661px] max-md:w-full">
-						<h2 className="text-4xl font-semibold leading-[2.75rem] text-neutral-d-gray">
+						<h2 className="text-4xl font-semibold leading-[2.75rem] text-[#4D4D4D]">
 							How to design your site footer like we did
 						</h2>
-						<p>
+						<p className="text-[#717171]">
 							Donec a eros justo. Fusce egestas tristique
 							ultrices. Nam tempor, augue nec tincidunt molestie,
 							massa nunc varius arcu, at scelerisque elit erat a

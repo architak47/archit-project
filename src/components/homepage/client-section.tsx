@@ -15,11 +15,11 @@ export default function ClientSection() {
 			<div className="flex max-w-[72rem] mx-auto flex-col gap-4 items-center">
 				<div className="flex flex-col gap-2 items-center">
 					<div className="max-w-[33.875rem]">
-						<h2 className="text-neutral-d-gray text-center font-semibold text-4xl leading-[2.75rem]">
+						<h2 className="text-[#4D4D4D] text-center font-semibold text-4xl leading-[2.75rem]">
 							Our Clients
 						</h2>
 					</div>
-					<p className="text-base text-neutral-gray font-normal text-center">
+					<p className="text-base text-[#717171] font-normal text-center">
 						We have been working with some Fortune 500+ clients
 					</p>
 				</div>

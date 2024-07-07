@@ -15,10 +15,10 @@ export default function UnseenSection() {
 				</figure>
 				<div className="flex flex-col gap-8">
 					<div className="flex flex-col gap-4 pr-16 sm:max-w-[661px] max-md:w-full">
-						<h2 className="flex text-4xl font-semibold leading-[2.75rem] text-neutral-d-gray">
+						<h2 className="flex text-4xl font-semibold leading-[2.75rem] text-[#4D4D4D]">
 							The unseen of spending three years at Pixelgrade
 						</h2>
-						<p>
+						<p className="text-[#717171]">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
 							elit. Sed sit amet justo ipsum. Sed accumsan quam
 							vitae est varius fringilla. Pellentesque placerat

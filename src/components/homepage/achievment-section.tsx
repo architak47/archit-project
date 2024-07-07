@@ -28,13 +28,13 @@ export default function AchievementSection() {
 			<div className="flex max-w-[72rem] mx-auto w-full">
 				<div className="flex max-md:flex-wrap w-full gap-12 justify-between items-center">
 					<div className="flex flex-col w-[100%] max-w-[33.75rem]">
-						<h2 className="text-4xl font-semibold leading-[2.75rem] text-neutral-d-gray">
+						<h2 className="text-4xl font-semibold leading-[2.75rem] text-[#4D4D4D]">
 							Helping a local{"  "}
-							<span className="text-brand-primary text-nowrap">
+							<span className="text-[#4CAF4F] text-nowrap">
 								business reinvent itself
 							</span>
 						</h2>
-						<p className="space-y-2">
+						<p className="space-y-2 text-[#717171]">
 							We reached here with our hard work and dedication
 						</p>
 					</div>
@@ -51,7 +51,7 @@ export default function AchievementSection() {
 										height={48}
 									/>
 								<div>
-									<h2 className="text-3xl font-bold text-neutral-d-gray">
+									<h2 className="text-3xl font-bold text-[#4D4D4D]">
 										{achievment.number}
 									</h2>
 									<p>{achievment.title }</p>

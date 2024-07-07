@@ -30,7 +30,7 @@ export default function CustomerSection() {
   ];
 
 	return (
-		<section className="px-[5%] py-12">
+		<section className="px-[5%] py-12 bg-[#F5F7FA]">
 			<div className="mx-auto w-full max-w-[72rem]">
 				<div className="grid w-full grid-cols-[auto,1fr] gap-[4.88rem] justify-stretch items-stretch">
 					<div>
@@ -48,7 +48,7 @@ export default function CustomerSection() {
 						/>
 					</div>
 					<div className="flex flex-col items-start justify-center gap-4">
-						<p className="font-semibold leading-6">
+						<p className="font-semibold leading-6 text-[#717171]">
 							Maecenas dignissim justo eget nulla rutrum molestie.
 							Maecenas lobortis sem dui, vel rutrum risus
 							tincidunt ullamcorper. Proin eu enim metus. Vivamus
@@ -65,8 +65,8 @@ export default function CustomerSection() {
 							amet magna.
 						</p>
 						<div className="flex flex-col gap-2">
-							<h2 className="text-brand-primary text-xl font-semibold">Tim Smith</h2>
-							<p>British Dragon Boat Racing Association</p>
+							<h2 className="text-[#4CAF4F] text-xl font-semibold">Tim Smith</h2>
+							<p className="text-[#89939E]">British Dragon Boat Racing Association</p>
             </div>
             <div className="flex gap-8 w-full justify-between">
               <div className="flex items-center gap-10">
