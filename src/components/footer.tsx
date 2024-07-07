@@ -51,7 +51,7 @@ export default function Footer() {
 						</Link>
 					</div>
 				</div>
-				<div className="footer-links flex gap-[1.88rem] ">
+				<div className="footer-links flex gap-[6.6rem] ">
 					<div className=" w-full max-w-[10rem]">
 						<h3 className="text-[#F5F7FA] text-lg font-bold mb-6">
 							Company
@@ -83,13 +83,13 @@ export default function Footer() {
 								<Link href="#">Help Center</Link>
 							</li>
 							<li>
-								<Link href="#">Terms and service</Link>
+								<Link className="whitespace-nowrap" href="#">Terms of service</Link>
 							</li>
 							<li>
 								<Link href="#">Legal</Link>
 							</li>
 							<li>
-								<Link href="#">Pripacy Policy</Link>
+								<Link href="#">Privacy Policy</Link>
 							</li>
 							<li>
 								<Link href="#">Status</Link>

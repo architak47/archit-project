@@ -33,7 +33,7 @@ export default function CustomerSection() {
 		<section className="px-[5%] py-12 bg-[#F5F7FA]">
 			<div className="mx-auto w-full max-w-[72rem]">
 				<div className="grid w-full grid-cols-[auto,1fr] gap-[4.88rem] justify-stretch items-stretch">
-					<div>
+					<div className="hover:scale-105 transition-transform duration-300 ease-in-out">
 						<Image
 							src="/Images/tesla.jpeg"
 							alt="Illustration"

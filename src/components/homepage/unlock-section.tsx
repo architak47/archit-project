@@ -5,7 +5,7 @@ export default function UnlockSection() {
   return (
 		<section className="flex py-[2.5rem] px-[5%]">
 			<div className="flex max-md:flex-wrap w-full max-w-[72rem] mx-auto justify-between items-center">
-				<figure className="flex max-md:w-full max-sm:justify-center">
+				<figure className="flex max-md:w-full max-sm:justify-center hover:scale-105 transition-transform duration-300 ease-in-out">
 					<Image
 						src={"Images/pana.svg"}
 						alt="Illustration"

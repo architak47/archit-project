@@ -7,6 +7,7 @@ export default function UnseenSection() {
 			<div className="flex max-md:flex-wrap w-full max-w-[72rem] mx-auto justify-between items-center">
 				<figure className="flex max-md:w-full max-sm:justify-center">
 					<Image
+						className="hover:hover:scale-105 transition-transform duration-300 ease-in-out"
 						src={"/Images/unseen-illustration.svg"}
 						alt="Illustration"
 						width={442}

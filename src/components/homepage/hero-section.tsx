@@ -13,13 +13,13 @@ export default function HeroSection() {
 								from 8 years
 							</span>
 						</h1>
-						<p className="text-base font-normal mt-4 mb-8">
+						<p className="text-base font-normal mt-4 mb-8 text-[#717171]">
 							Where to grow your business as a photographer: site
 							or social media?
 						</p>
 						<ButtonPrimary label="Register" />
 					</div>
-					<div className="max-w-full place-self-end max-md:place-self-center">
+					<div className="max-w-full place-self-end max-md:place-self-center hover:scale-105 transition-transform duration-300 ease-in-out">
 						<Image
 							src="/Images/Illustration.svg"
 							alt="Illustration"
