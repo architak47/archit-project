@@ -52,8 +52,8 @@ export default function CommunityUpdateSection() {
 								}}
 								className="rounded-lg"
 							/>
-							<div className="relative z-50 w-fit mx-auto flex flex-col gap-4 items-center mt-[-25%] px-4 py-4 rounded-lg bg-neutral-silver text-center shadow-[0px_8px_16px_0px_rgba(171,190,209,0.40)]">
-								<h2 className="w-full max-w-[285px] text-xl font-semibold">
+							<div className="relative z-5 w-fit mx-auto flex flex-col gap-4 items-center mt-[-25%] px-4 py-4 rounded-lg bg-[#F5F7FA] text-center shadow-[0px_8px_16px_0px_rgba(171,190,209,0.40)]">
+								<h2 className="w-full max-w-[285px] text-xl font-semibold text-[#717171]">
 									{Content}
 								</h2>
 								<div className="inline-flex mx-auto">
