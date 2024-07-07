@@ -13,20 +13,19 @@ export default function Navbar() {
 		{ href: "/faq", label: "FAQ" },
 	];
 	return (
-		<div className="fixed top-0 w-full z-50">
+		<div className="fixed top-0 w-full z-50 bg-[#F5F7FA] shadow-sm">
 			<div className="max-h-[5.25rem] py-[1.38rem] px-[5%] bg-neutral-silver">
 				<nav className="flex max-w-[75rem] mx-auto justify-between items-center">
 					<div className="max-lg:hidden">
 						<Link href={"/"}>
 							<Image
-								src="/Logo.svg"
+								src="/Images/Logo.svg"
 								alt="logo"
 								width={154}
 								height={24}
 							/>
 						</Link>
 					</div>
-					{/* Mobile Menu Button */}
 					<Link href={"/"} className="block lg:hidden">
 						<svg
 							className="w-6 h-6"
@@ -42,7 +41,6 @@ export default function Navbar() {
 							/>
 						</svg>
 					</Link>
-					{/* Mobile Menu */}
 					<div className="md:hidden hidden bg-white w-full py-2">
 						{links.map(({ href, label }) => (
 							<Link
@@ -54,7 +52,6 @@ export default function Navbar() {
 							</Link>
 						))}
 					</div>
-					{/* Desktop Menu */}
 					<div className="inline-flex gap-[3.125rem] max-lg:hidden">
 						{links.map(({ href, label }) => (
 							<Link

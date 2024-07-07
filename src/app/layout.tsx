@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,18 +12,21 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-	children,
-}: Readonly<{
-	children: React.ReactNode;
-}>) {
+  children,
+}: {
+  children: React.ReactNode
+}) {
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<header>
+				<header className="z-50">
 					<Navbar />
 				</header>
-				<main>{children}</main>
+				<main
+          className="z-0"
+        >{children}</main>
 			</body>
+      <Script src="https://kit.fontawesome.com/333a269518.js"></Script>
 		</html>
 	);
 }

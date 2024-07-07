@@ -7,7 +7,7 @@ export default function Footer() {
 			<div className="flex flex-row py-16 max-w-[70rem] mx-auto justify-between ">
 				<div className="company-info flex gap-10 flex-col">
 					<Image
-						src={"/Logo-on-black.png"}
+						src={"/Images/Logo-on-black.png"}
 						alt="logo"
 						width={100}
 						height={12}
@@ -19,7 +19,7 @@ export default function Footer() {
 					<div className="social-icon flex flex-row gap-4">
 						<Link href="https://www.instagram.com">
 							<Image
-								src="/instagram.svg"
+								src="/Images/instagram.svg"
 								alt="instagram"
 								width={24}
 								height={24}
@@ -27,7 +27,7 @@ export default function Footer() {
 						</Link>
 						<Link href="/website">
 							<Image
-								src="/web.svg"
+								src="/Images/web.svg"
 								alt="website"
 								width={24}
 								height={24}
@@ -35,7 +35,7 @@ export default function Footer() {
 						</Link>
 						<Link href="https://www.twitter.com">
 							<Image
-								src="/twitter.svg"
+								src="/Images/twitter.svg"
 								alt="twitter"
 								width={24}
 								height={24}
@@ -43,7 +43,7 @@ export default function Footer() {
 						</Link>
 						<Link href="https://www.facebook.com">
 							<Image
-								src="/youtube.svg"
+								src="/Images/youtube.svg"
 								alt="youtube"
 								width={24}
 								height={24}
@@ -108,7 +108,7 @@ export default function Footer() {
 							/>
 							<button className="absolute right-4 top-[50%] translate-y-[-50%]">
 								<Image
-									src="/send.svg"
+									src="/Images/send.svg"
 									alt="send"
 									width={24}
 									height={24}

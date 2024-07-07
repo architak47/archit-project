@@ -13,7 +13,7 @@ export default function ButtonPrimary({
 }: ButtonPrimaryProps) {
 	return (
 		<button
-			className="flex py-[0.625rem] px-[1.25rem] gap-2 items-center bg-brand-primary text-white rounded-md transition-all ease-in-out duration-300 hover:opacity-80"
+			className="flex py-[0.625rem] px-[1.25rem] gap-2 items-center bg-[#4CAF4F] text-white rounded-md transition-all ease-in-out duration-300 hover:opacity-80"
 			{...props}
 		>
 			{label && (
